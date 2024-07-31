@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { ReactElement, useState } from "react";
 import { ISong } from "../interfaces";
 import songsJson from "../data/songs.json";
 
@@ -6,6 +6,8 @@ import "../css/Player.css";
 
 export function Player(): ReactElement {
     const songs: ISong[] = songsJson;
+    //todo: setCurrentSong
+    const [currentSong] = useState<ISong | null>(songs[0]);
 
     return (
         <section className="container">
@@ -26,7 +28,25 @@ export function Player(): ReactElement {
                 ))}
             </div>
             <div className="right-section">
-                <h2>Music Player</h2>
+                <div className="music-player">
+                    {currentSong && (
+                        <>
+                            <img src={currentSong.picture} />
+                            <h3>{currentSong.artist} - {currentSong.song}</h3>
+                            <div className="media-controls">
+                                <span className="material-symbols-outlined">
+                                    skip_previous
+                                </span>
+                                <span className="material-symbols-outlined">
+                                    play_arrow
+                                </span>
+                                <span className="material-symbols-outlined">
+                                    skip_next
+                                </span>
+                            </div>
+                        </>
+                    )}
+                </div>
             </div>
         </section>
     );

@@ -5,6 +5,7 @@ h3 {
 p {
     font-weight: 200;
 }
+/* Container for playlist and musicplayer */
 .container {
     width: 100%;
     background-color: #17273c;
@@ -36,11 +37,13 @@ p {
     height: 50px;
     border-style: solid;
     border-width: 2px;
+    cursor: pointer;
 }
 .song-item-text {
     display:inline-block;
     margin-left:20px;
     justify-content: flex-start;
+    cursor: pointer;
 }
 .material-symbols-outlined {
   font-variation-settings:
@@ -52,4 +55,14 @@ p {
   cursor: pointer;
   justify-content: center;
   margin-right:50px;
+}
+/* Music player */
+.music-player {
+    text-align:center;
+}
+.music-player img {
+    width: 300px;
+}
+.music-player h3 {
+    font-size: 1.3em;
 }

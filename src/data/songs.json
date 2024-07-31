@@ -19,5 +19,12 @@
         "song":"Vi bryr oss int",
         "picture":"src/images/song3.png",
         "href":"#"
+    },
+    {
+        "id":"4",
+        "artist":"Lägger till en som ett exempel",
+        "song":"Detta är exemplet",
+        "picture":"src/images/song3.png",
+        "href":"#"
     }
 ]
