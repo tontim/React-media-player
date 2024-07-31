@@ -1,0 +1,55 @@
+h3 {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+p {
+    font-weight: 200;
+}
+.container {
+    width: 100%;
+    background-color: #17273c;
+    box-sizing:border-box;
+    display:flex;
+}
+.left-section {
+    width: 50%;
+    box-sizing: border-box;
+}
+.right-section {
+    width: 50%;
+    box-sizing: border-box;
+    justify-content: center;
+    color:white;
+}
+.song-item {
+    display:flex;
+    color:white;
+    padding: 15px;
+}
+.song-item-content {
+    display:flex;
+    align-items: center;
+    flex:1;
+}
+.song-item img {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+}
+.song-item-text {
+    display:inline-block;
+    margin-left:20px;
+    justify-content: flex-start;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  margin-left: auto;
+  cursor: pointer;
+  justify-content: center;
+  margin-right:50px;
+}

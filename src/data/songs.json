@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "artist":"Raketforskaren",
+        "song":"Som vi alltid brukade",
+        "picture":"src/images/song1.png",
+        "href":"#"
+    },
+    {
+        "id":"2",
+        "artist":"Jonnys senap",
+        "song":"Rädda rummet",
+        "picture":"src/images/song2.png",
+        "href":"#"
+    },
+    {
+        "id":"3",
+        "artist":"Jonnys senap",
+        "song":"Vi bryr oss int",
+        "picture":"src/images/song3.png",
+        "href":"#"
+    }
+]

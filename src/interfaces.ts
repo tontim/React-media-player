@@ -3,3 +3,10 @@ export interface ILink {
     label: string;
     href: string;
 }
+export interface ISong {
+    id: string;
+    artist: string;
+    song: string;
+    picture: string;
+    href: string;
+}

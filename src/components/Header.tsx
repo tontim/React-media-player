@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import linksJson from "../links.json";
+import linksJson from "../data/links.json";
 import { ILink } from "../interfaces";
 import { Link } from "./Link";
 
