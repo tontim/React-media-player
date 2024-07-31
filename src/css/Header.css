@@ -1,0 +1,13 @@
+.header {
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #2d313e, #3c4053);
+    padding: 10px;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
