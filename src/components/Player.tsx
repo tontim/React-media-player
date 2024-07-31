@@ -12,8 +12,9 @@ export function Player(): ReactElement {
     return (
         <section className="container">
             <div className="left-section">
-                {songs.map((song) => (
-                    <div key={song.id} className="song-item">
+                {songs.map((song, index) => (
+                    //lite GPT fusk här men ville verkligen få till en BG color på active item
+                    <div key={song.id} className={`song-item ${index === 0 ? 'first' : ''}`}>
                         <img src={song.picture} />
                         <div className="song-item-content">
                             <div className="song-item-text">

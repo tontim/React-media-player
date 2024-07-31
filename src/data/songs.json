@@ -26,5 +26,19 @@
         "song":"Detta är exemplet",
         "picture":"src/images/song3.png",
         "href":"#"
+    },
+    {
+        "id":"4",
+        "artist":"Wow",
+        "song":"Detta är ett helt annat exempel",
+        "picture":"src/images/song2.png",
+        "href":"#"
+    },
+    {
+        "id":"4",
+        "artist":"Och så!",
+        "song":"En till så jag ser hur min border funkar",
+        "picture":"src/images/song1.png",
+        "href":"#"
     }
 ]

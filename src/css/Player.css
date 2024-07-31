@@ -8,7 +8,7 @@ p {
 /* Container for playlist and musicplayer */
 .container {
     width: 100%;
-    background-color: #17273c;
+    background-image: linear-gradient(to right, #5a668b, #3c4053);
     box-sizing:border-box;
     display:flex;
 }
@@ -26,6 +26,9 @@ p {
     display:flex;
     color:white;
     padding: 15px;
+    border-right-style:solid;
+    border-color: rgba(42.0, 42, 42, 0.69);
+    text-shadow: 2px 2px #000000;
 }
 .song-item-content {
     display:flex;
@@ -56,13 +59,21 @@ p {
   justify-content: center;
   margin-right:50px;
 }
+.song-item.first {
+    background-image: linear-gradient(to right, #28428f85, #3c4053);
+
+}
 /* Music player */
 .music-player {
     text-align:center;
+    padding:20px;
+    text-shadow: 3px 3px #000000;
 }
 .music-player img {
     width: 300px;
+    box-shadow: 10px 10px rgba(186, 112, 221, 0.671);
 }
 .music-player h3 {
+    margin-top:40px;
     font-size: 1.3em;
 }
